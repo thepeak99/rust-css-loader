@@ -12,5 +12,5 @@ readme = "../README.md"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-css-loader-macros = {path = "../css-loader-macros"}
-web-sys = {version = "0.3", features = ["Window", "Document", "HtmlHeadElement"]}
+css-loader-macros = { path = "../css-loader-macros", version="0.0.1" }
+web-sys = { version = "0.3", features = ["Window", "Document", "HtmlHeadElement"] }
