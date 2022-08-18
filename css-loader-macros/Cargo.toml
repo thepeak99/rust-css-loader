@@ -7,7 +7,7 @@ authors = [
     "Exe Zulliger <exe@thepeak.de>"
 ]
 description = "A simple macro to include style files in Rust using CSS Modules-like scoping"
-readme = "../README.MD"
+readme = "../README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
