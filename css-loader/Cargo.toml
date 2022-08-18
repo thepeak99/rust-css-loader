@@ -1,0 +1,16 @@
+[package]
+name = "css-loader"
+version = "0.0.1"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+authors = [
+    "Exe Zulliger <exe@thepeak.de>"
+]
+description = "A simple macro to include style files in Rust using CSS Modules-like scoping"
+readme = "../README.MD"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+css-loader-macros = {path = "../css-loader-macros"}
+web-sys = {version = "0.3", features = ["Window", "Document", "HtmlHeadElement"]}

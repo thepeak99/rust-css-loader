@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "css-loader",
+    "css-loader-macros"
+]
